@@ -20,7 +20,7 @@ const SubscriptionMail = () => {
             </div>
             <div className='w-full flex flex-col items-center justify-center gap-6 text-[#27272a] p-8 '>
                 <h1 className='text-2xl font-semibold'>Why people love Delve</h1>
-                <div className='flex items-center justify-center w-full flex-row flex-wrap'>
+                <div className='flex items-start justify-center w-full flex-row flex-wrap'>
                     <div className='w-1/2 flex flex-col gap-3 items-center justify-center p-2'>
                         <Image src={"/image 258.svg"} width={100} height={100} className='w-16 h-12' alt='' />
                         <h1 className='text-lg text-[#1E1E1E] font-semibold'>Match words, boost fluency</h1>
@@ -53,7 +53,7 @@ const SubscriptionMail = () => {
                 <h1 className='font-semibold text-4xl '>Start speaking with Delve</h1>
                 <p className='font-normal text-base'>Don’t just learn a language — live it.</p>
                 <div>
-                    <button className='bg-[#8324DB] font-normal text-base text-white'>Start Today</button>
+                    <button className='bg-[#8324DB] font-normal text-base text-white p-5 rounded-4xl'>Start Today</button>
                 </div>
             </div>
             <div className='p-8 flex flex-col gap-10 items-center justify-center text-[#5D1A9B]'>
