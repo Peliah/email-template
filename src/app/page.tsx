@@ -7,9 +7,9 @@ import NewYear from "@/components/new-year";
 export default function Home() {
   return (
     <>
-      {/* <Anniversary1 /> */}
-      {/* <NewYear/> */}
-      <Birthday/>
+      {/* <SubscriptionMail /> */}
+      {/* <ForgotPassword /> */}
+      <OTP />
     </>
   );
 }
