@@ -1,15 +1,10 @@
-import Anniversary1 from "@/components/anniversary1";
-import Birthday from "@/components/birthday";
-import Graduation from "@/components/graduation";
-import NewYear from "@/components/new-year";
+import Christmass from "@/components/christmas";
 
 
 export default function Home() {
   return (
     <>
-      {/* <SubscriptionMail /> */}
-      {/* <ForgotPassword /> */}
-      <OTP />
+      <Christmass />
     </>
   );
 }
